@@ -8,8 +8,28 @@ variable "location" {
     type        = string
 }
 
+variable "cae_name" {
+    description = "El nombre del entorno de la aplicación contenedora"
+    type        = string
+}
 
-variable "suscription_id" {
+variable "aca_name" {
+    description = "El nombre de la aplicación contenedora"
+    type        = string
+}
+
+variable "kv_name" {
+    description = "El nombre del Key Vault"
+    type        = string
+}
+
+variable "identity_01_name" {
+    description = "El nombre de la identidad administrada de usuario"
+    type        = string
+}
+
+
+variable "subscription_id" {
     description = "El ID de la suscripción de Azure"
     type        = string
 }
